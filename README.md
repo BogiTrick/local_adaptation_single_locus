@@ -19,3 +19,8 @@
 * Script used to run all the simulations in the paper for P~F plot (Figure 3) for different migration rates and dominances. 
 * Executes selfing_sim binary, and returns .out files contain raw simulated data (i.e., for each replicate simulation).
 * compare_simulations_self_varied.R takes .out files and computes averages and standard deviations of the establishment probabilities; This is used for plotting in mating_system_locus_revision.nb
+
+6. .zip files contain all of the simulated data required for plotting figures in Mathematica notebook
+* processed_data_offspring_dispersal.zip -- For cases when seed disperses
+* processed_data_gamete_dispersal.zip -- For cases when pollen disperses
+* processed_data_selfing_varied.zip -- For P~F plot across migrations and dominances
